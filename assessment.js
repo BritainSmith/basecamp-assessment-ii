@@ -1,6 +1,10 @@
 // #1 Create an object called 'me' that has three keys, 'firstname' 'age' and 'state'. Assign the keys the appropriate values.
 
-// CODE HERE
+me = {
+  'firstname':'Brit',
+  'age':'Old enough',
+  'state':'Too hot'
+}
 
 // #2 Add a new key/value pair to the me object using dot notation. The new key should be 'faveColor' and set it to your favorite color as a string
 
@@ -52,6 +56,6 @@ var peopleIknow = [
   { name: "Holly", friend: true }
 ];
 
-// #10 Create a function called indexFinder that will loop over an array and return a new array of the indexes of the contents e.g. [243, 123, 4, 12] would return [0,1,2,3]. 
+// #10 Create a function called indexFinder that will loop over an array and return a new array of the indexes of the contents e.g. [243, 123, 4, 12] would return [0,1,2,3].
 // Create a new variable called 'indexes' and set it to contain the indexes of randomNumbers.
 let randomNumbers = [1, 3453, 34, 456, 32, 3, 2, 0];
